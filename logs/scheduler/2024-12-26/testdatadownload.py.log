@@ -1,0 +1,699 @@
+[2024-12-26T10:51:25.346+0000] {processor.py:186} INFO - Started process (PID=2627) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:51:25.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:51:25.353+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:51:25.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:51:25.366+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:51:25.451+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:51:25.450+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:wiki_flow
+[2024-12-26T10:51:25.455+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:51:25.455+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:wiki_flow
+[2024-12-26T10:51:25.456+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:51:25.456+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:wiki_flow
+[2024-12-26T10:51:25.459+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:51:25.459+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:wiki_flow
+[2024-12-26T10:51:25.460+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:51:25.460+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:wiki_flow
+[2024-12-26T10:51:25.462+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:51:25.462+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:wiki_flow
+[2024-12-26T10:51:25.464+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:51:25.464+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:wiki_flow
+[2024-12-26T10:51:25.464+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:51:25.464+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T10:51:25.471+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:51:25.471+0000] {dag.py:3262} INFO - Creating ORM DAG for wiki_flow
+[2024-12-26T10:51:25.472+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:51:25.472+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T10:51:25.478+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.144 seconds
+[2024-12-26T10:51:55.857+0000] {processor.py:186} INFO - Started process (PID=2692) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:51:55.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:51:55.861+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:51:55.860+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:51:55.869+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:51:55.885+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:51:55.885+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T10:51:55.896+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:51:55.896+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T10:51:55.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.053 seconds
+[2024-12-26T10:52:26.384+0000] {processor.py:186} INFO - Started process (PID=2757) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:52:26.386+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:52:26.389+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:52:26.389+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:52:26.399+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:52:26.423+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:52:26.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T10:52:26.436+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:52:26.436+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T10:52:26.445+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.069 seconds
+[2024-12-26T10:52:57.230+0000] {processor.py:186} INFO - Started process (PID=2822) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:52:57.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:52:57.236+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:52:57.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:52:57.249+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:52:57.274+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:52:57.273+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T10:52:57.284+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:52:57.283+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T10:52:57.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.075 seconds
+[2024-12-26T10:53:28.349+0000] {processor.py:186} INFO - Started process (PID=2887) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:53:28.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:53:28.356+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:53:28.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:53:28.374+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:53:28.399+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:53:28.399+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T10:53:28.411+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:53:28.411+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T10:53:28.426+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.090 seconds
+[2024-12-26T10:53:58.676+0000] {processor.py:186} INFO - Started process (PID=2952) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:53:58.678+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:53:58.687+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:53:58.687+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:53:58.710+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:53:58.752+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:53:58.751+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T10:53:58.764+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:53:58.764+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T10:53:58.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.116 seconds
+[2024-12-26T10:54:28.921+0000] {processor.py:186} INFO - Started process (PID=3017) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:54:28.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:54:28.924+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:54:28.924+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:54:28.933+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:54:28.962+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:54:28.962+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T10:54:28.975+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:54:28.974+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T10:54:28.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.076 seconds
+[2024-12-26T10:54:59.865+0000] {processor.py:186} INFO - Started process (PID=3082) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:54:59.869+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:54:59.873+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:54:59.872+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:54:59.895+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:54:59.944+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:54:59.944+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T10:54:59.970+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:54:59.969+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T10:54:59.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.140 seconds
+[2024-12-26T10:55:30.230+0000] {processor.py:186} INFO - Started process (PID=3145) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:55:30.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:55:30.233+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:55:30.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:55:30.238+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:55:30.251+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:55:30.251+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T10:55:30.257+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:55:30.257+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T10:55:30.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.041 seconds
+[2024-12-26T10:56:00.834+0000] {processor.py:186} INFO - Started process (PID=3209) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:56:00.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:56:00.836+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:56:00.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:56:00.841+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:56:00.858+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:56:00.858+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T10:56:00.865+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:56:00.865+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T10:56:00.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.046 seconds
+[2024-12-26T10:56:20.336+0000] {processor.py:186} INFO - Started process (PID=3220) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:56:20.339+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:56:20.349+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:56:20.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:56:20.366+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:56:20.363+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testdatadownload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testdatadownload.py", line 52, in <module>
+    data.to_csv('data/' + file_name, index=False)
+    ^^^^
+NameError: name 'data' is not defined
+[2024-12-26T10:56:20.367+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:56:20.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.098 seconds
+[2024-12-26T10:56:50.940+0000] {processor.py:186} INFO - Started process (PID=3286) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:56:50.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:56:50.948+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:56:50.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:56:50.964+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:56:50.963+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testdatadownload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testdatadownload.py", line 52, in <module>
+    data.to_csv('data/' + file_name, index=False)
+    ^^^^
+NameError: name 'data' is not defined
+[2024-12-26T10:56:50.965+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:56:51.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.082 seconds
+[2024-12-26T10:57:06.570+0000] {processor.py:186} INFO - Started process (PID=3346) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:57:06.576+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:57:06.584+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:57:06.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:57:06.604+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:57:06.602+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testdatadownload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testdatadownload.py", line 53, in <module>
+    data.to_csv('data/' + file_name, index=False)
+    ^^^^
+NameError: name 'data' is not defined
+[2024-12-26T10:57:06.605+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:57:06.731+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.171 seconds
+[2024-12-26T10:57:36.966+0000] {processor.py:186} INFO - Started process (PID=3412) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:57:36.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:57:36.972+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:57:36.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:57:36.980+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:57:36.978+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testdatadownload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testdatadownload.py", line 53, in <module>
+    data.to_csv('data/' + file_name, index=False)
+    ^^^^
+NameError: name 'data' is not defined
+[2024-12-26T10:57:36.981+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:57:37.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.051 seconds
+[2024-12-26T10:57:52.373+0000] {processor.py:186} INFO - Started process (PID=3419) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:57:52.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:57:52.381+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:57:52.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:57:52.401+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:57:52.399+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testdatadownload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testdatadownload.py", line 54, in <module>
+    data.to_csv('data/' + file_name, index=False)
+    ^^^^
+NameError: name 'data' is not defined
+[2024-12-26T10:57:52.402+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:57:52.447+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.091 seconds
+[2024-12-26T10:58:22.979+0000] {processor.py:186} INFO - Started process (PID=3485) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:58:22.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:58:22.983+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:58:22.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:58:23.001+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:58:22.999+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testdatadownload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testdatadownload.py", line 54, in <module>
+    data.to_csv('data/' + file_name, index=False)
+    ^^^^
+NameError: name 'data' is not defined
+[2024-12-26T10:58:23.002+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:58:23.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.081 seconds
+[2024-12-26T10:58:28.291+0000] {processor.py:186} INFO - Started process (PID=3525) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:58:28.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:58:28.295+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:58:28.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:58:28.318+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:58:28.644+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:58:28.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T10:58:28.649+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:58:28.649+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T10:58:28.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.378 seconds
+[2024-12-26T10:58:58.766+0000] {processor.py:186} INFO - Started process (PID=3591) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:58:58.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:58:58.769+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:58:58.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:58:58.790+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:58:58.813+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:58:58.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T10:58:58.827+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:58:58.827+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T10:58:58.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.085 seconds
+[2024-12-26T10:59:29.861+0000] {processor.py:186} INFO - Started process (PID=3657) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:59:29.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T10:59:29.864+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:59:29.863+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:59:29.875+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T10:59:29.904+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:59:29.903+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T10:59:29.923+0000] {logging_mixin.py:190} INFO - [2024-12-26T10:59:29.922+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T10:59:29.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.086 seconds
+[2024-12-26T11:00:00.616+0000] {processor.py:186} INFO - Started process (PID=3724) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:00:00.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:00:00.620+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:00:00.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:00:00.643+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:00:00.666+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:00:00.665+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:00:00.691+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:00:00.691+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:00:00.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.128 seconds
+[2024-12-26T11:00:31.513+0000] {processor.py:186} INFO - Started process (PID=3790) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:00:31.514+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:00:31.515+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:00:31.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:00:31.523+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:00:31.539+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:00:31.539+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:00:31.548+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:00:31.548+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:00:31.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.050 seconds
+[2024-12-26T11:01:02.419+0000] {processor.py:186} INFO - Started process (PID=3856) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:01:02.420+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:01:02.421+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:01:02.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:01:02.432+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:01:02.447+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:01:02.447+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:01:02.458+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:01:02.458+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:01:02.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.057 seconds
+[2024-12-26T11:01:32.676+0000] {processor.py:186} INFO - Started process (PID=3922) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:01:32.677+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:01:32.678+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:01:32.678+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:01:32.685+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:01:32.699+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:01:32.699+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:01:32.707+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:01:32.707+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:01:32.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.045 seconds
+[2024-12-26T11:02:03.279+0000] {processor.py:186} INFO - Started process (PID=3988) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:02:03.280+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:02:03.281+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:02:03.281+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:02:03.286+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:02:03.297+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:02:03.297+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:02:03.305+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:02:03.305+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:02:03.317+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.042 seconds
+[2024-12-26T11:02:33.984+0000] {processor.py:186} INFO - Started process (PID=4054) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:02:33.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:02:33.992+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:02:33.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:02:34.015+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:02:34.050+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:02:34.050+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:02:34.075+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:02:34.075+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:02:34.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.357 seconds
+[2024-12-26T11:03:05.206+0000] {processor.py:186} INFO - Started process (PID=4120) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:03:05.208+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:03:05.209+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:03:05.209+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:03:05.220+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:03:05.235+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:03:05.235+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:03:05.248+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:03:05.248+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:03:05.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.065 seconds
+[2024-12-26T11:03:30.582+0000] {processor.py:186} INFO - Started process (PID=4158) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:03:30.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:03:30.585+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:03:30.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:03:30.619+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:03:30.657+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:03:30.657+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:03:30.674+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:03:30.674+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:03:30.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.124 seconds
+[2024-12-26T11:04:01.561+0000] {processor.py:186} INFO - Started process (PID=4224) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:04:01.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:04:01.567+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:04:01.567+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:04:01.575+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:04:01.589+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:04:01.589+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:04:01.719+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:04:01.719+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:04:01.731+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.179 seconds
+[2024-12-26T11:04:15.231+0000] {processor.py:186} INFO - Started process (PID=4254) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:04:15.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:04:15.234+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:04:15.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:04:15.242+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:04:15.240+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testdatadownload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testdatadownload.py", line 31
+    with open('response_text.txt', 'w') as file:
+    ^^^^
+IndentationError: expected an indented block after 'with' statement on line 30
+[2024-12-26T11:04:15.242+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:04:15.289+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.073 seconds
+[2024-12-26T11:04:45.727+0000] {processor.py:186} INFO - Started process (PID=4320) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:04:45.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:04:45.733+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:04:45.732+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:04:45.749+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:04:45.746+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/testdatadownload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/testdatadownload.py", line 31
+    with open('response_text.txt', 'w') as file:
+    ^^^^
+IndentationError: expected an indented block after 'with' statement on line 30
+[2024-12-26T11:04:45.750+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:04:45.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.114 seconds
+[2024-12-26T11:05:10.303+0000] {processor.py:186} INFO - Started process (PID=4384) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:05:10.304+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:05:10.306+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:05:10.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:05:10.318+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:05:10.340+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:05:10.339+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:05:10.357+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:05:10.357+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:05:10.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.086 seconds
+[2024-12-26T11:05:36.792+0000] {processor.py:186} INFO - Started process (PID=4428) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:05:36.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:05:36.800+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:05:36.800+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:05:36.837+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:05:36.911+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:05:36.910+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:05:36.960+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:05:36.960+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:05:36.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.220 seconds
+[2024-12-26T11:06:07.258+0000] {processor.py:186} INFO - Started process (PID=4494) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:06:07.264+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:06:07.268+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:06:07.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:06:07.299+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:06:07.356+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:06:07.356+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:06:07.387+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:06:07.387+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:06:07.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.171 seconds
+[2024-12-26T11:06:38.109+0000] {processor.py:186} INFO - Started process (PID=4560) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:06:38.111+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:06:38.114+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:06:38.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:06:38.132+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:06:38.163+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:06:38.163+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:06:38.181+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:06:38.181+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:06:38.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.105 seconds
+[2024-12-26T11:07:07.619+0000] {processor.py:186} INFO - Started process (PID=4624) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:07:07.621+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:07:07.623+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:07:07.623+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:07:07.656+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:07:07.699+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:07:07.698+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:07:07.716+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:07:07.716+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:07:07.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.132 seconds
+[2024-12-26T11:07:37.970+0000] {processor.py:186} INFO - Started process (PID=4690) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:07:37.978+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:07:37.980+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:07:37.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:07:38.004+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:07:38.053+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:07:38.053+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:07:38.079+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:07:38.079+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:07:38.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.150 seconds
+[2024-12-26T11:08:09.099+0000] {processor.py:186} INFO - Started process (PID=4756) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:08:09.103+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:08:09.105+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:08:09.105+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:08:09.113+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:08:09.140+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:08:09.139+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:08:09.155+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:08:09.154+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:08:09.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.079 seconds
+[2024-12-26T11:08:39.886+0000] {processor.py:186} INFO - Started process (PID=4822) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:08:39.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:08:39.890+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:08:39.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:08:39.905+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:08:39.939+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:08:39.939+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:08:39.957+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:08:39.957+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:08:39.972+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.095 seconds
+[2024-12-26T11:09:10.299+0000] {processor.py:186} INFO - Started process (PID=4888) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:09:10.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:09:10.302+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:09:10.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:09:10.317+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:09:10.338+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:09:10.338+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:09:10.352+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:09:10.352+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:09:10.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.077 seconds
+[2024-12-26T11:09:41.277+0000] {processor.py:186} INFO - Started process (PID=4954) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:09:41.278+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:09:41.280+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:09:41.279+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:09:41.299+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:09:41.343+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:09:41.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:09:41.356+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:09:41.356+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:09:41.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.104 seconds
+[2024-12-26T11:10:12.341+0000] {processor.py:186} INFO - Started process (PID=5019) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:10:12.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:10:12.353+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:10:12.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:10:12.402+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:10:12.471+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:10:12.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:10:12.492+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:10:12.492+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:10:12.519+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.207 seconds
+[2024-12-26T11:10:42.694+0000] {processor.py:186} INFO - Started process (PID=5084) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:10:42.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:10:42.696+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:10:42.695+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:10:42.708+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:10:42.742+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:10:42.742+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:10:42.761+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:10:42.761+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:10:42.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.091 seconds
+[2024-12-26T11:11:12.963+0000] {processor.py:186} INFO - Started process (PID=5149) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:11:12.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:11:12.968+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:11:12.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:11:12.990+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:11:13.026+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:11:13.026+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:11:13.043+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:11:13.043+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:11:13.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.114 seconds
+[2024-12-26T11:11:43.345+0000] {processor.py:186} INFO - Started process (PID=5214) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:11:43.346+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:11:43.347+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:11:43.347+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:11:43.357+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:11:43.371+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:11:43.371+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:11:43.379+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:11:43.379+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:11:43.390+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.051 seconds
+[2024-12-26T11:12:13.611+0000] {processor.py:186} INFO - Started process (PID=5280) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:12:13.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:12:13.615+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:12:13.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:12:13.630+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:12:13.651+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:12:13.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:12:13.662+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:12:13.662+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:12:13.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.075 seconds
+[2024-12-26T11:12:44.341+0000] {processor.py:186} INFO - Started process (PID=5345) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:12:44.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:12:44.343+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:12:44.343+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:12:44.351+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:12:44.370+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:12:44.370+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:12:44.378+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:12:44.378+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:12:44.386+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.053 seconds
+[2024-12-26T11:13:14.680+0000] {processor.py:186} INFO - Started process (PID=5410) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:13:14.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:13:14.683+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:13:14.683+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:13:14.693+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:13:14.707+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:13:14.707+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:13:14.718+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:13:14.717+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:13:14.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.057 seconds
+[2024-12-26T11:13:45.387+0000] {processor.py:186} INFO - Started process (PID=5475) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:13:45.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:13:45.389+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:13:45.389+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:13:45.396+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:13:45.407+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:13:45.407+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:13:45.414+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:13:45.414+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:13:45.422+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.043 seconds
+[2024-12-26T11:14:15.957+0000] {processor.py:186} INFO - Started process (PID=5540) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:14:15.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:14:15.968+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:14:15.967+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:14:16.022+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:14:16.088+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:14:16.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:14:16.127+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:14:16.127+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:14:16.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.251 seconds
+[2024-12-26T11:14:46.593+0000] {processor.py:186} INFO - Started process (PID=5605) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:14:46.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:14:46.595+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:14:46.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:14:46.601+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:14:46.618+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:14:46.618+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:14:46.628+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:14:46.627+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:14:46.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.048 seconds
+[2024-12-26T11:15:17.300+0000] {processor.py:186} INFO - Started process (PID=5665) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:15:17.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:15:17.302+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:15:17.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:15:17.313+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:15:17.329+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:15:17.329+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:15:17.340+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:15:17.340+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:15:17.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.057 seconds
+[2024-12-26T11:15:47.774+0000] {processor.py:186} INFO - Started process (PID=5730) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:15:47.775+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:15:47.776+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:15:47.776+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:15:47.786+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:15:47.801+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:15:47.801+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:15:47.809+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:15:47.809+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:15:47.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.053 seconds
+[2024-12-26T11:16:18.295+0000] {processor.py:186} INFO - Started process (PID=5795) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:16:18.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:16:18.299+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:16:18.297+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:16:18.314+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:16:18.337+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:16:18.337+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:16:18.352+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:16:18.352+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:16:18.365+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.080 seconds
+[2024-12-26T11:16:48.632+0000] {processor.py:186} INFO - Started process (PID=5860) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:16:48.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:16:48.647+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:16:48.646+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:16:48.698+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:16:48.759+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:16:48.758+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:16:48.783+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:16:48.782+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:16:48.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.199 seconds
+[2024-12-26T11:17:20.013+0000] {processor.py:186} INFO - Started process (PID=5921) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:17:20.014+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:17:20.015+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:17:20.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:17:20.027+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:17:20.044+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:17:20.044+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:17:20.050+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:17:20.050+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:17:20.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.051 seconds
+[2024-12-26T11:17:50.384+0000] {processor.py:186} INFO - Started process (PID=5984) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:17:50.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:17:50.386+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:17:50.386+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:17:50.398+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:17:50.416+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:17:50.416+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:17:50.426+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:17:50.426+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:17:50.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.060 seconds
+[2024-12-26T11:18:20.464+0000] {processor.py:186} INFO - Started process (PID=6049) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:18:20.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:18:20.465+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:18:20.465+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:18:20.471+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:18:20.483+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:18:20.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:18:20.491+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:18:20.491+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:18:20.500+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.039 seconds
+[2024-12-26T11:18:50.888+0000] {processor.py:186} INFO - Started process (PID=6103) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:18:50.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:18:50.890+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:18:50.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:18:50.903+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:18:50.918+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:18:50.918+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:18:50.928+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:18:50.928+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:18:50.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.059 seconds
+[2024-12-26T11:19:21.113+0000] {processor.py:186} INFO - Started process (PID=6168) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:19:21.114+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:19:21.115+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:19:21.115+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:19:21.127+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:19:21.141+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:19:21.141+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:19:21.149+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:19:21.149+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:19:21.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.053 seconds
+[2024-12-26T11:19:51.752+0000] {processor.py:186} INFO - Started process (PID=6233) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:19:51.753+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:19:51.754+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:19:51.754+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:19:51.760+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:19:51.775+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:19:51.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:19:51.785+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:19:51.785+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:19:51.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.048 seconds
+[2024-12-26T11:20:21.889+0000] {processor.py:186} INFO - Started process (PID=6298) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:20:21.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:20:21.890+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:20:21.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:20:21.897+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:20:21.910+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:20:21.910+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:20:21.917+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:20:21.917+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:20:21.925+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.040 seconds
+[2024-12-26T11:20:52.073+0000] {processor.py:186} INFO - Started process (PID=6358) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:20:52.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:20:52.077+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:20:52.077+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:20:52.092+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:20:52.112+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:20:52.112+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:20:52.122+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:20:52.122+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:20:52.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.070 seconds
+[2024-12-26T11:21:22.762+0000] {processor.py:186} INFO - Started process (PID=6423) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:21:22.763+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:21:22.764+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:21:22.764+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:21:22.773+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:21:22.796+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:21:22.796+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:21:22.815+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:21:22.814+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:21:22.852+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.101 seconds
+[2024-12-26T11:21:53.095+0000] {processor.py:186} INFO - Started process (PID=6488) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:21:53.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:21:53.097+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:21:53.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:21:53.103+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:21:53.125+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:21:53.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:21:53.134+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:21:53.134+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:21:53.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.060 seconds
+[2024-12-26T11:22:24.142+0000] {processor.py:186} INFO - Started process (PID=6559) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:22:24.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:22:24.144+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:22:24.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:22:24.151+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:22:24.167+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:22:24.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:22:24.178+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:22:24.178+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:22:24.193+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.057 seconds
+[2024-12-26T11:22:54.484+0000] {processor.py:186} INFO - Started process (PID=6624) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:22:54.487+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:22:54.492+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:22:54.491+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:22:54.523+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:22:54.566+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:22:54.566+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:22:54.592+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:22:54.592+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:22:54.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.156 seconds
+[2024-12-26T11:23:24.737+0000] {processor.py:186} INFO - Started process (PID=6689) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:23:24.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:23:24.739+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:23:24.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:23:24.749+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:23:24.765+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:23:24.765+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:23:24.774+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:23:24.774+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:23:24.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.055 seconds
+[2024-12-26T11:23:55.862+0000] {processor.py:186} INFO - Started process (PID=6754) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:23:55.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:23:55.865+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:23:55.865+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:23:55.886+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:23:55.925+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:23:55.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:23:55.949+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:23:55.948+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:23:55.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.119 seconds
+[2024-12-26T11:24:26.625+0000] {processor.py:186} INFO - Started process (PID=6819) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:24:26.633+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:24:26.637+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:24:26.636+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:24:26.687+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:24:26.717+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:24:26.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:24:26.741+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:24:26.741+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:24:26.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.164 seconds
+[2024-12-26T11:24:57.617+0000] {processor.py:186} INFO - Started process (PID=6884) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:24:57.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:24:57.618+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:24:57.618+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:24:57.624+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:24:57.639+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:24:57.639+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:24:57.648+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:24:57.648+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:24:57.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.053 seconds
+[2024-12-26T11:25:28.468+0000] {processor.py:186} INFO - Started process (PID=6949) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:25:28.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:25:28.470+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:25:28.470+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:25:28.480+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:25:28.494+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:25:28.494+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:25:28.502+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:25:28.502+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:25:28.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.053 seconds
+[2024-12-26T11:25:58.584+0000] {processor.py:186} INFO - Started process (PID=7014) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:25:58.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:25:58.586+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:25:58.586+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:25:58.601+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:25:58.616+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:25:58.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:25:58.624+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:25:58.623+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:25:58.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.054 seconds
+[2024-12-26T11:26:29.306+0000] {processor.py:186} INFO - Started process (PID=7079) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:26:29.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:26:29.308+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:26:29.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:26:29.318+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:26:29.330+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:26:29.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:26:29.337+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:26:29.337+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:26:29.349+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.051 seconds
+[2024-12-26T11:26:59.718+0000] {processor.py:186} INFO - Started process (PID=7144) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:26:59.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:26:59.719+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:26:59.719+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:26:59.728+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:26:59.741+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:26:59.741+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:26:59.749+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:26:59.749+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:26:59.757+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.045 seconds
+[2024-12-26T11:27:30.259+0000] {processor.py:186} INFO - Started process (PID=7209) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:27:30.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:27:30.261+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:27:30.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:27:30.269+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:27:30.286+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:27:30.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:27:30.296+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:27:30.296+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:27:30.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.055 seconds
+[2024-12-26T11:28:00.377+0000] {processor.py:186} INFO - Started process (PID=7274) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:28:00.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:28:00.380+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:28:00.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:28:00.388+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:28:00.402+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:28:00.402+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:28:00.409+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:28:00.409+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:28:00.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.051 seconds
+[2024-12-26T11:28:31.333+0000] {processor.py:186} INFO - Started process (PID=7339) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:28:31.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:28:31.337+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:28:31.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:28:31.346+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:28:31.361+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:28:31.361+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:28:31.369+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:28:31.369+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:28:31.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.056 seconds
+[2024-12-26T11:29:01.866+0000] {processor.py:186} INFO - Started process (PID=7404) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:29:01.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:29:01.868+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:29:01.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:29:01.876+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:29:01.890+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:29:01.890+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:29:01.898+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:29:01.898+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:29:01.912+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.052 seconds
+[2024-12-26T11:29:32.542+0000] {processor.py:186} INFO - Started process (PID=7469) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:29:32.543+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:29:32.544+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:29:32.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:29:32.553+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:29:32.565+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:29:32.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:29:32.574+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:29:32.574+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:29:32.593+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.057 seconds
+[2024-12-26T11:30:02.842+0000] {processor.py:186} INFO - Started process (PID=7534) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:30:02.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:30:02.844+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:30:02.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:30:02.850+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:30:02.860+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:30:02.860+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:30:02.867+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:30:02.867+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:30:02.876+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.038 seconds
+[2024-12-26T11:30:33.069+0000] {processor.py:186} INFO - Started process (PID=7599) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:30:33.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:30:33.071+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:30:33.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:30:33.078+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:30:33.092+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:30:33.092+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:30:33.103+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:30:33.102+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:30:33.120+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.055 seconds
+[2024-12-26T11:31:03.219+0000] {processor.py:186} INFO - Started process (PID=7664) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:31:03.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:31:03.220+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:31:03.220+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:31:03.229+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:31:03.238+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:31:03.237+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:31:03.244+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:31:03.244+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:31:03.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.041 seconds
+[2024-12-26T11:31:33.372+0000] {processor.py:186} INFO - Started process (PID=7723) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:31:33.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:31:33.377+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:31:33.377+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:31:33.399+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:31:33.432+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:31:33.432+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:31:33.451+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:31:33.451+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:31:33.470+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.114 seconds
+[2024-12-26T11:32:03.667+0000] {processor.py:186} INFO - Started process (PID=7788) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:32:03.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:32:03.670+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:32:03.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:32:03.689+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:32:03.731+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:32:03.730+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:32:03.752+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:32:03.752+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:32:03.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.110 seconds
+[2024-12-26T11:32:34.532+0000] {processor.py:186} INFO - Started process (PID=7853) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:32:34.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:32:34.534+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:32:34.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:32:34.553+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:32:34.577+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:32:34.576+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:32:34.589+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:32:34.588+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:32:34.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.087 seconds
+[2024-12-26T11:33:05.344+0000] {processor.py:186} INFO - Started process (PID=7918) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:33:05.346+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:33:05.348+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:33:05.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:33:05.365+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:33:05.408+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:33:05.408+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:33:05.429+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:33:05.429+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:33:05.445+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.121 seconds
+[2024-12-26T11:33:36.268+0000] {processor.py:186} INFO - Started process (PID=7983) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:33:36.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:33:36.272+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:33:36.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:33:36.283+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:33:36.300+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:33:36.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:33:36.318+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:33:36.318+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:33:36.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.071 seconds
+[2024-12-26T11:34:07.014+0000] {processor.py:186} INFO - Started process (PID=8048) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:34:07.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:34:07.023+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:34:07.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:34:07.047+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:34:07.106+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:34:07.106+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:34:07.129+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:34:07.129+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:34:07.145+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.155 seconds
+[2024-12-26T11:34:37.340+0000] {processor.py:186} INFO - Started process (PID=8113) to work on /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:34:37.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/testdatadownload.py for tasks to queue
+[2024-12-26T11:34:37.344+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:34:37.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:34:37.366+0000] {processor.py:925} INFO - DAG(s) 'wiki_flow' retrieved from /opt/airflow/dags/testdatadownload.py
+[2024-12-26T11:34:37.420+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:34:37.420+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-26T11:34:37.515+0000] {logging_mixin.py:190} INFO - [2024-12-26T11:34:37.514+0000] {dag.py:4180} INFO - Setting next_dagrun for wiki_flow to None, run_after=None
+[2024-12-26T11:34:37.582+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/testdatadownload.py took 0.256 seconds
